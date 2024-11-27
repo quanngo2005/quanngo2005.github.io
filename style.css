@@ -1,0 +1,35 @@
+/* Center the entire gallery on the page */
+body {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  height: 100vh; /* Full viewport height */
+  margin: 0; /* Remove default margin */
+  font-family: Arial, sans-serif; /* Optional, better text style */
+  background-color: #f5f5f5; /* Light background color */
+}
+
+/* Styling for the display area */
+#image {
+  height: 300px;
+  width: 500px;
+  background-color: lightgray;
+  text-align: center;
+  line-height: 300px;
+  font-size: 20px;
+  color: black;
+  margin-bottom: 20px; /* Space below the display area */
+}
+
+/* Styling for preview images */
+.preview {
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+  cursor: pointer; /* Makes the cursor change to pointer on hover */
+}
+
+/* Container for the preview images */
+.gallery {
+  text-align: center; /* Center the gallery inside the container */
+}

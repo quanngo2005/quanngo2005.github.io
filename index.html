@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Photo Gallery</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Main display area -->
+    <div id="image">Hover over an image below to display here.</div>
+
+    <!-- Image previews -->
+    <div class="gallery">
+      <img
+        class="preview"
+        src="https://images.unsplash.com/photo-1730033176619-cdd3ac93c457?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI2NzQ5NTF8&ixlib=rb-4.0.3&q=85"
+        alt="Description 1"
+        onmouseover="upDate(this)"
+        onmouseout="undo()"
+      />
+      <img
+        class="preview"
+        src="https://images.unsplash.com/photo-1732459996749-e39500ee6063?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI2NzQ5NTF8&ixlib=rb-4.0.3&q=85"
+        alt="Description 2"
+        onmouseover="upDate(this)"
+        onmouseout="undo()"
+      />
+      <img
+        class="preview"
+        src="https://images.unsplash.com/photo-1730650352721-5f88c64d3394?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI2NzQ5NTF8&ixlib=rb-4.0.3&q=85"
+        alt="Description 3"
+        onmouseover="upDate(this)"
+        onmouseout="undo()"
+      />
+    </div>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="script.js"></script>
+  </body>
+</html>
